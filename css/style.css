@@ -1,0 +1,58 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: paleturquoise;
+}
+
+#header-div{
+    background-color: #002147;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+#header-div, #body-div{
+    width: 400px;
+    padding: 5px;
+    border: 1px dotted none;
+    border-radius: 20px;
+}
+
+h1{
+    color: floralwhite;
+}
+
+#body-div{
+    background-color: darkcyan;
+}
+
+ul, li{
+    margin: 0;
+    padding: 3px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: lightgrey;
+    margin: 0;
+    margin-right: 60px;
+}
+
+.curry-and-momo{
+    width: 50px;
+    height: auto;
+    border: 1px dotted none;
+    border-radius: 80%;
+}
+

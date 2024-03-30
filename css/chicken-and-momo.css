@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    width: 200px;
+    text-align: center;
+    background-color: lightseagreen;
+    color: bisque;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+h2 {
+    background-color: darkolivegreen;
+    padding: 4px;
+    color: whitesmoke;
+}
