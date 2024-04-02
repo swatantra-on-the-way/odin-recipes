@@ -1,10 +1,15 @@
-*{
+*, *::before, *::after{
     font-family: Helvetica, Arial, sans-serif;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
 }
 
 body{
     background-color: paleturquoise;
+    padding: 4px;
+    margin: 4px;
 }
 
 #header-div{
@@ -17,7 +22,6 @@ body{
 #header-div, #body-div{
     width: 400px;
     padding: 5px;
-    border: 1px dotted none;
     border-radius: 20px;
 }
 
@@ -38,21 +42,26 @@ ul {
     list-style: none;
 }
 
-li {
-    padding: 0;
-}
-
 a{
     text-decoration: none;
     color: lightgrey;
-    margin: 0;
-    margin-right: 60px;
+    display: inline-block;
+    width: 120px;
+    margin-top: 0;
 }
 
 .curry-and-momo{
     width: 50px;
     height: auto;
-    border: 1px dotted none;
     border-radius: 80%;
 }
 
+li {
+    padding: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.curry-and-momo:hover{
+    cursor: pointer;
+}
